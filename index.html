@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RSDKv4</title>
+  <script src="coi-serviceworker.js"></script>
   <!-- favicon managed dynamically by FaviconLoader below -->
 
   <style>
@@ -333,7 +334,7 @@
    DEV_MODE: set true to load RSDKv4.js/.wasm from local files
    next to index.html. Expected: RSDKv4.js, RSDKv4.wasm, lib/RSDKv4.js
    ============================================================ */
-const DEV_MODE = false;
+const DEV_MODE = true;
 
 const CDN_BASE     = 'https://cdn.jsdelivr.net/gh/ant9012/v4-plus-standalone-html@main/';
 const CDN_FILES_JS = CDN_BASE + 'Files.js';
