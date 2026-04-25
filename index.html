@@ -563,7 +563,7 @@ function toggleSidebar() {
 /* ============================================================
    Console UI
    ============================================================ */
-let consoleVisible = true;
+let consoleVisible = false;
 function getLineClass(l) {
   if (/\[ERROR\]|ERROR|Exception|\[FATAL\]/.test(l)) return 'cl-err';
   if (/WARNING|WARN|\[WARNING\]/.test(l)) return 'cl-warn';
